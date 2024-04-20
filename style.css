@@ -13,7 +13,7 @@ body {
 
 .navigation {
     border-bottom: 1px solid #ccc; /* thin grey line */
-    margin-bottom: 20px;
+    margin-bottom: 3%; /* Move down by 3% */
 }
 
 .navigation ul {
@@ -39,8 +39,8 @@ body {
 }
 
 .profile {
-    margin-top: 3%; /* 3% above the center */
-    margin-bottom: 20px;
+    margin-top: 10%; /* Move down by 10% */
+    margin-bottom: 2%; /* Seperate by 2% */
 }
 
 .profile img {
@@ -49,7 +49,7 @@ body {
 }
 
 .text {
-    margin-bottom: 20px;
+    margin-bottom: 2%; /* Seperate by 2% */
 }
 
 .text h1, .text h2 {
@@ -61,11 +61,21 @@ body {
     font-size: 14px; /* slightly smaller text */
 }
 
+.line {
+    border-bottom: 1px solid #ccc; /* thin grey line */
+    margin-bottom: 3%; /* Move down by 3% */
+}
+
 .social-icons {
-    margin-top: 20px;
+    margin-top: 3%; /* Seperate from bottom by 3% */
 }
 
 .social-icons img {
     width: 30px;
     margin: 0 5px;
+}
+
+.bottom-line {
+    border-top: 1px solid #ccc; /* thin grey line */
+    margin-top: 3%; /* Seperate from social icons by 3% */
 }
