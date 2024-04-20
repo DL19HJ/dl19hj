@@ -11,25 +11,6 @@ body {
     max-width: 600px;
 }
 
-.profile {
-    padding-top: 100px; /* Adjust as needed */
-    margin-bottom: 50px;
-}
-
-.profile img {
-    width: 150px; /* Adjust as needed */
-    border-radius: 50%;
-}
-
-.profile h1, .profile h2 {
-    margin: 5px 0;
-}
-
-.profile p {
-    margin: 10px 0;
-    font-size: 14px; /* slightly smaller text */
-}
-
 .navigation {
     border-bottom: 1px solid #ccc; /* thin grey line */
     margin-bottom: 20px;
@@ -55,6 +36,33 @@ body {
     border: 1px solid #ccc; /* grey border */
     padding: 10px 20px; /* adjust padding as needed */
     border-radius: 30px; /* elongated oval shape */
+}
+
+.profile {
+    margin-top: 3%; /* 3% above the center */
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px; /* Adjust as needed */
+    border-radius: 50%;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text h1, .text h2 {
+    margin: 5px 0;
+}
+
+.text p {
+    margin: 10px 0;
+    font-size: 14px; /* slightly smaller text */
+}
+
+.social-icons {
+    margin-top: 20px;
 }
 
 .social-icons img {
