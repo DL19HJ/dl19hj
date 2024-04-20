@@ -1,73 +1,32 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* cream white background */
-    text-align: center;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-.navigation {
-    border-bottom: 1px solid #ccc; /* thin grey line */
-    margin-bottom: 3%; /* Move down by 3% */
-    padding-bottom: 3%; /* Separate from profile by 3% */
-}
-
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.navigation ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.navigation ul li:last-child {
-    margin-right: 0;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-    color: #000; /* black */
-    border: 1px solid #ccc; /* grey border */
-    padding: 10px 20px; /* adjust padding as needed */
-    border-radius: 30px; /* elongated oval shape */
-}
-
-.profile {
-    margin-top: 10%; /* Move down by 10% */
-    margin-bottom: 2%; /* Separate from social icons by 2% */
-}
-
-.profile img {
-    width: 150px; /* Adjust as needed */
-    border-radius: 50%;
-}
-
-.profile h1, .profile h2 {
-    margin: 5px 0;
-}
-
-.profile p {
-    margin: 10px 0;
-    font-size: 14px; /* slightly smaller text */
-}
-
-.top-line {
-    border-bottom: 1px solid #ccc; /* thin grey line */
-    margin-bottom: 3%; /* Move down by 3% */
-}
-
-.social-icons {
-    margin-bottom: 3%; /* Separate from bottom by 3% */
-}
-
-.social-icons img {
-    width: 30px;
-    margin: 0 5px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>August Valente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <img src="profile-picture.jpg" alt="Profile Picture">
+            <h1>August Valente</h1>
+            <h2>Composer</h2>
+            <p>Specialising in original scores for film and video games</p>
+        </div>
+        <hr class="top-line">
+    </div>
+    <div class="social-icons">
+        <img src="instagram-icon.png" alt="Instagram">
+        <img src="twitter-icon.png" alt="Twitter">
+    </div>
+</body>
+</html>
