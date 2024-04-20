@@ -14,6 +14,7 @@ body {
 .navigation {
     border-bottom: 1px solid #ccc; /* thin grey line */
     margin-bottom: 3%; /* Move down by 3% */
+    padding-bottom: 3%; /* Separate from profile by 3% */
 }
 
 .navigation ul {
@@ -40,7 +41,7 @@ body {
 
 .profile {
     margin-top: 10%; /* Move down by 10% */
-    margin-bottom: 2%; /* Seperate by 2% */
+    margin-bottom: 2%; /* Separate from social icons by 2% */
 }
 
 .profile img {
@@ -48,26 +49,17 @@ body {
     border-radius: 50%;
 }
 
-.text {
-    margin-bottom: 2%; /* Seperate by 2% */
-}
-
-.text h1, .text h2 {
+.profile h1, .profile h2 {
     margin: 5px 0;
 }
 
-.text p {
+.profile p {
     margin: 10px 0;
     font-size: 14px; /* slightly smaller text */
 }
 
-.line {
-    border-bottom: 1px solid #ccc; /* thin grey line */
-    margin-bottom: 3%; /* Move down by 3% */
-}
-
 .social-icons {
-    margin-top: 3%; /* Seperate from bottom by 3% */
+    margin-bottom: 3%; /* Separate from bottom by 3% */
 }
 
 .social-icons img {
@@ -77,5 +69,5 @@ body {
 
 .bottom-line {
     border-top: 1px solid #ccc; /* thin grey line */
-    margin-top: 3%; /* Seperate from social icons by 3% */
+    margin-top: 3%; /* Separate from social icons by 3% */
 }
